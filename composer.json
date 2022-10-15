@@ -1,0 +1,27 @@
+{
+    "name": "domeo/tenancy-modules-laravel",
+    "description": "laravel package for multitenancy and modules approach",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Domeo\\TenancyModulesLaravel\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Dominik Feilbach",
+            "email": "dominik.feilbach@googlemail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+           "providers": [
+               "Domeo\\TenancyModulesLaravel\\TenancyModulesServiceProvider"
+           ]
+        }
+    }
+}
